@@ -31,4 +31,10 @@ public class CowQueue {
     {
         return cowList.size();
     }
+
+    public void display()
+    {
+        for(Cow c : cowList)
+            System.out.println(c);
+    }
 }

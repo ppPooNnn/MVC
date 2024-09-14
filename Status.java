@@ -4,5 +4,7 @@ public enum Status
     NOTAVALIABLE,
     CLEANING,
     READY,
-    WORKING
+    WORKING,
+    DONE,
+    NOTDONE
 }
