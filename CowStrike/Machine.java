@@ -3,10 +3,10 @@ import java.util.ArrayList;
 
 public class Machine 
 {
-    ArrayList<Head> heads = new ArrayList<>();
-    Status machineStatus;
-    Cow cowInMachine;
-    int machineNum;
+    public ArrayList<Head> heads = new ArrayList<>();
+    public Status machineStatus;
+    public Cow cowInMachine;
+    public int machineNum;
 
     public Machine(int num)
     {

@@ -3,9 +3,9 @@ import java.util.*;
 
 public class Cow
 {
-    int udder;
-    int sex; // 0 for male, 1 for female
-    int like;
+    public int udder;
+    public int sex; // 0 for male, 1 for female
+    public int like;
 
     public Cow()
     {

@@ -20,6 +20,12 @@ public class main {
             machines.add(new Machine(i + 1));
 
         CowStrike cStrk = new CowStrike();
-        cStrk.working(cows, machines);
+        Verify ver = new Verify();
+        while (true)
+        {
+            cStrk.working(cows, machines);
+            if (ver.case1(machines) || ver.case2(machines) || ver.case3(machines))
+
+        }
     }
 }

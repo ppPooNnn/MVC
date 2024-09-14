@@ -1,8 +1,8 @@
 package CowStrike;
 public class Head
 {
-    int headnum;
-    Status headStatus;
+    public int headnum;
+    public Status headStatus;
     public Head(int num)
     {
         headnum = num;
